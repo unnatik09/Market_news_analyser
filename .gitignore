@@ -1,0 +1,52 @@
+# Environment variables - IMPORTANT: Never commit your actual API keys!
+.env
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+
+# Streamlit
+.streamlit/
+
+# Logs
+*.log
+logs/
+
+# Cache & temp files
+.cache/
+*.cache
+*.tmp
+*.temp
+temp/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
