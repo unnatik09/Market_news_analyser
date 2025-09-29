@@ -2,6 +2,10 @@
 
 AI-powered Streamlit app that scrapes Economic Times market news and generates intelligent summaries using Llama via Groq API.
 
+![Image 29-09-25 at 4 24 PM](https://github.com/user-attachments/assets/5d0350c6-e2c0-4934-94be-5d0a6472364f)
+![Image 29-09-25 at 4 23 PM](https://github.com/user-attachments/assets/8cf7a09d-26e1-4e93-82ee-cc5214463028)
+
+
 ## 🚀 Quick Start
 
 1. **Setup:**
