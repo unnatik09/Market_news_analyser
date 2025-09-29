@@ -1,6 +1,9 @@
 # Environment variables - IMPORTANT: Never commit your actual API keys!
 .env
 
+# Streamlit secrets - Keep API keys private!
+.streamlit/secrets.toml
+
 # Virtual environment
 venv/
 env/

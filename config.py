@@ -1,11 +1,20 @@
 import os
 from dotenv import load_dotenv
+import streamlit as st
 
 # Load environment variables
 load_dotenv()
 
-# API Configuration
-GROQ_API_KEY = os.getenv("GROQ_API_KEY")
+# API Configuration - Works with both local .env and Streamlit Cloud secrets
+def get_api_key():
+    # Try Streamlit secrets first (for cloud deployment)
+    try:
+        return st.secrets["GROQ_API_KEY"]
+    except:
+        # Fall back to environment variable (for local development)
+        return os.getenv("GROQ_API_KEY")
+
+GROQ_API_KEY = get_api_key()
 
 # Scraping Configuration
 ECONOMIC_TIMES_MARKET_URL = "https://economictimes.indiatimes.com/markets"
